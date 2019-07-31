@@ -9,6 +9,11 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   background: #222;
   height: 100%;
 }
+.w3-button:hover {
+  position: relative;
+  text-shadow: 2px 5px 10px lightskyblue;
+  box-shadow: 2px 5px 10px lightskyblue;
+}
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
 #main {margin-left: 15%}
 /* Remove margins from "page content" on small screens */
