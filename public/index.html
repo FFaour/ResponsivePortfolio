@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="./css/style.css">
 <body class="w3-black">
+
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
 <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
   <!-- Avatar image in top left corner -->
@@ -52,14 +53,14 @@
   <!-- About Section -->
   <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
     <h2 class="w3-text-light-grey">About Me</h2>
-    <hr style="width:200px" class="w3-opacity">
+    <hr style="width:100%" class="w3-opacity">
     <p>    As a recent graduate of Georgia Tech's full stack web development program, I am now able to expand my ability to provide applications and systems that improve business productivity. I currently work in the scale industry as a programmer/service manager and technician. While programming using the iRite language, I created multiple touch screen systems that run processes and production for plants in Georgia, Florida, and Michigan. Some of the companies I have helped include Archer Daniel Midlands, Sanderson Pipe, and EZ-GO Textron.</p>
     <p>    I am excited to bring my skills in M.E.R.N. (MongoDB, Express, React, Node.JS) full stack web development to bear on solutions that bring efficiency and ease of use to new areas in business and expand the capabilities or offerings currently on the market.</p>
     <p>    If you are looking for a talented developer with proven experience in solving problems, please get in touch!</p>
     <br>
     <br>
     <h2 class="w3-text-light-grey">My Skills</h2>
-    <hr style="width:200px" class="w3-opacity">
+    <hr style="width:100%" class="w3-opacity">
     <p class="w3-wide">HTML/CSS</p>
     <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px; width:85%"></div>
@@ -102,40 +103,39 @@
       </div>
     </div>
     <br>
-    <form method="get" action="./docs/resume.docx">
+    <form method="get" action="./docs/FredFaourResume.docx">
       <button class="w3-button resumeBtn w3-light-grey w3-padding-large w3-section">
         <i class="fa fa-download">Download Resume</i> 
       </button>
     </form>
-    </div>
   </div>
   
   <!-- Portfolio Section -->
   <div class="w3-padding-16 w3-content" id="photos">
     <h2 class="w3-text-light-grey">My Projects</h2>
-    <hr style="width:200px" class="w3-opacity">
+    <hr style="width:100%" class="w3-opacity">
 
     <!-- Grid for photos -->
     <div class="w3-row-padding" style="margin:0 -16px">
       <div class="w3-half">
         <a href="https://reactclickygameff.herokuapp.com/"><img src="./images/projects/ClickyGame.PNG" href="" style="width:100%"></a>
         <a href="https://nytmongoscraperff.herokuapp.com/"><img src="./images/projects/NYTScraper.PNG" style="width:100%"></a>
-        </div>
+      </div>
 
       <div class="w3-half">
         <a href="https://redeploy-db.herokuapp.com/"><img src="./images/projects/ReDeploy.PNG" style="width:100%"></a>
-        <a href="https://eatdaburgerffaour.herokuapp.com/"><img src="./images/projects/Eat-Da-Burger.PNG" style="width:100%"></a>
-      
+        <a href="https://eatdaburgerffaour.herokuapp.com/"><img src="./images/projects/Eat-Da-Burger.PNG" style="width:100%"></a>  
       </div>
-    <!-- End photo grid -->
     </div>
-  <!-- End Portfolio Section -->
+    <!-- End photo grid -->
+
+    <!-- End Portfolio Section -->
   </div>
 
   <!-- Contact Section -->
   <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
     <h2 class="w3-text-light-grey">Contact Me</h2>
-    <hr style="width:200px" class="w3-opacity">
+    <hr style="width:100%" class="w3-opacity">
 
     <div class="w3-section">
       <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Savannah,GA</p>
@@ -155,23 +155,34 @@
         </button>
       </p>
     </form>
-  <!-- End Contact Section -->
   </div>
+  <!-- End Contact Section -->
   
-    <!-- Footer -->
+  <!-- Footer -->
   <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-    <a href="https://www.facebook.com/fred.faour.5"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
-    <!-- <i class="fa fa-instagram w3-hover-opacity"></i> -->
-    <!-- <i class="fa fa-snapchat w3-hover-opacity"></i> -->
-    <!-- <i class="fa fa-pinterest-p w3-hover-opacity"></i> -->
-    <!-- <i class="fa fa-twitter w3-hover-opacity"></i> -->
-    <a href="https://www.linkedin.com/in/fred-faour-92504bbb/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    <h2 class="w3-text-light-grey">Social Media/Github Links</h2>
+    <hr style="width:100%" class="w3-opacity"></hr>
+    <a href="https://www.facebook.com/fred.faour.5"><i class="fa fa-5x fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://github.com/FFaour"><i class="fa fa-5x fa-github w3-hover-opacity"></i></a>
+    <!-- <i class="fa fa-5x fa-snapchat w3-hover-opacity"></i> -->
+    <!-- <i class="fa fa-5x fa-pinterest-p w3-hover-opacity"></i> -->
+    <!-- <i class="fa fa-5x fa-twitter w3-hover-opacity"></i> -->
+    <a href="https://www.linkedin.com/in/fred-faour-92504bbb/"><i class="fa fa-5x fa-linkedin w3-hover-opacity"></i></a>
     <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
   <!-- End footer -->
   </footer>
 
 <!-- END PAGE CONTENT -->
 </div>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/6.3.3/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#reserved-urls -->
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
 
 </body>
 </html>
